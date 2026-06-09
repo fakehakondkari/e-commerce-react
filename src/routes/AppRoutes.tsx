@@ -15,7 +15,7 @@ import { ProtectedRoute } from '../components/layout/ProtectedRoute';
 export function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route path="/e-commerce-react/" element={<HomePage />} />
       <Route path="/shop" element={<ShopPage />} />
       <Route path="/product/:id" element={<ProductDetailsPage />} />
       <Route path="/cart" element={<CartPage />} />
